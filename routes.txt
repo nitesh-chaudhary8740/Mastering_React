@@ -1,0 +1,7 @@
+Action,Method,URL,Description
+GET,READ,/items,Returns all items.
+GET,READ,/items/1,Returns item with ID 1.
+POST,CREATE,/items,Adds a new item (auto-generates ID).
+PUT,UPDATE,/items/1,Replaces item 1 with new data.
+PATCH,UPDATE,/items/1,Updates only specific fields in item 1.
+DELETE,DELETE,/items/1,Removes item 1.

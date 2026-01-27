@@ -1,0 +1,29 @@
+/* path: src/index.css */
+@import "tailwindcss";
+
+@layer components {
+  /* The Grid wrapper for any stats section */
+  .stats-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6;
+  }
+
+  /* The actual individual card */
+  .card-stat {
+    @apply bg-white p-5 rounded-xl border border-gray-100 shadow-sm 
+           flex items-center justify-between transition-all hover:shadow-md;
+  }
+
+  /* Standardizing the Label and Value */
+  .stat-label {
+    @apply text-xs font-bold text-gray-400 uppercase tracking-wider;
+  }
+
+  .stat-value {
+    @apply text-2xl font-bold text-gray-800 mt-1;
+  }
+
+  /* Standardizing the Icon Container */
+  .stat-icon-box {
+    @apply p-3 rounded-lg flex items-center justify-center;
+  }
+}

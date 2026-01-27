@@ -1,0 +1,131 @@
+{
+  "company": {
+    "name": "Techverse",
+    "email": "owner@techverse.com",
+    "phone": "+91 9876543210",
+    "address": "123 Tech Park, Bangalore",
+    "gstin": "29AAAAA0000A1Z5",
+    "logo": "https://avatars.githubusercontent.com/u/200191035?v=4&size=64",
+    "createdAt": "2024-01-15"
+  },
+  "parties": [
+    {
+      "id": 1,
+      "name": "Sourabh Kushwaha",
+      "type": "Customer",
+      "phone": "9988776655",
+      "email": "sourabh@example.com",
+      "address": "Bhopal, MP"
+    },
+    {
+      "id": 2,
+      "name": "Nexus Builds",
+      "type": "Supplier",
+      "phone": "8877665544",
+      "email": "contact@nexus.com",
+      "address": "Delhi, India"
+    },
+    {
+      "id": 3,
+      "name": "Innovate Corp",
+      "type": "Customer",
+      "phone": "7766554433",
+      "email": "info@innovate.com",
+      "address": "Mumbai, MH"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 59999.99,
+      "quantity": 11,
+      "description": "High performance laptop"
+    },
+    {
+      "id": 2,
+      "name": "Tv",
+      "category": "Electronics",
+      "price": 10000,
+      "quantity": 10,
+      "description": "4K Smart TV"
+    },
+    {
+      "id": 3,
+      "name": "UI/UX Design",
+      "category": "Services",
+      "price": 30000,
+      "quantity": 99,
+      "description": "User interface design per screen"
+    },
+    {
+      "id": 4,
+      "name": "API Integration",
+      "category": "Services",
+      "price": 20000,
+      "quantity": 99,
+      "description": "Backend API integration"
+    },
+    {
+      "name": "demo",
+      "description": "this is demo",
+      "category": "Electronics",
+      "price": 45234532,
+      "quantity": 6,
+      "id": 5
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-2024-022",
+      "partyId": 1,
+      "date": "2025-02-11",
+      "dueDate": "2025-02-25",
+      "status": "Draft",
+      "items": [
+        {
+          "itemId": 3,
+          "name": "UI/UX Design",
+          "quantity": 1,
+          "price": 30000
+        },
+        {
+          "itemId": 4,
+          "name": "API Integration",
+          "quantity": 0.75,
+          "price": 15000
+        }
+      ],
+      "totalAmount": 45000
+    }
+  ],
+  "categories": [
+    "Electronics",
+    "Services",
+    "Accessories",
+    "Furniture",
+    "Food & Beverage",
+    "Support",
+    "Software",
+    "Subscriptions"
+  ],
+  "revenueOverview": [
+    {
+      "month": "August",
+      "amount": 140000
+    },
+    {
+      "month": "September",
+      "amount": 70000
+    },
+    {
+      "month": "October",
+      "amount": 172000
+    },
+    {
+      "month": "November",
+      "amount": 249000
+    }
+  ]
+}
