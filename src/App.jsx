@@ -1,12 +1,12 @@
-// import PerformancePractice from "./components/PerformancePractice";
-import Parent from "./components/Parent";
-import PerformancePracticeB from "./components/perPormancePracticeB";
-import StockSearch from "./components/StockSearch";
+import TaskDVirtualizationWithCustomLogic from "./components/TaskDVirtualizationWithCustomLogic";
+import TaskDVirtualizationWithVirtua from "./components/TaskDVirtualizationWithVirtua";
+
+
 
 function App() {
   return (
     <>
- <StockSearch/>
+<TaskDVirtualizationWithCustomLogic/>
  </>
   );
 }
